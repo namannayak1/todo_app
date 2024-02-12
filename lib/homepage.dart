@@ -16,7 +16,10 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 13, 177, 13),
         title: Center(
-          child: Text('TO DO'),
+          child: Text(
+            'TO DO App',
+            style: TextStyle(backgroundColor: Colors.black45),
+          ),
         ),
         elevation: 2,
       ),
